@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/DV/Trump/changeFace.unity
+  isLoaded: 1
+  isActive: 1
