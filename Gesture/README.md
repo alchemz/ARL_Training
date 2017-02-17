@@ -1,1 +1,1 @@
-use leap motion and fingo's default gesture.
+use hololens,leap motion, and fingo's default gesture.
