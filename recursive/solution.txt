@@ -1,1 +1,0 @@
-https://github.com/alchemz/Unity_DataVisualization/blob/master/DataVisualization_Fractal/Assets/Scripts/Fractal.cs
