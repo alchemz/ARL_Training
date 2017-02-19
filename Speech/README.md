@@ -1,1 +1,2 @@
-easily set up voice command with Unity(Windows only)
+- easily set up voice command with Unity(Windows only)
+- use keyword, phrase command
