@@ -1,0 +1,3 @@
+- List: indexing collection
+- Dictionary: key based collections(key refers to the properties of the list)
+- Set: treat the collection as a group
