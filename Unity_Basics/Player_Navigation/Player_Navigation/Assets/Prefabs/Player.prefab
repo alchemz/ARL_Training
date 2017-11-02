@@ -23,9 +23,9 @@ GameObject:
   - component: {fileID: 135166077012233122}
   - component: {fileID: 23386010326735132}
   - component: {fileID: 54996993566905194}
-  - component: {fileID: 114561036184833892}
-  - component: {fileID: 114996322252725986}
-  - component: {fileID: 114684687113479224}
+  - component: {fileID: 114313802700966970}
+  - component: {fileID: 114214616091335218}
+  - component: {fileID: 114256286605445566}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -102,7 +102,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 4
   m_CollisionDetection: 0
---- !u!114 &114561036184833892
+--- !u!114 &114214616091335218
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -110,13 +110,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1751638125408664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f04769be5af62e44d89bb04e9c135f88, type: 3}
+  m_Script: {fileID: 11500000, guid: 994ff7fa17a4542f48acd4410bd273e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1751638125408664}
+  acceleration: 200
   maxSpeed: 1000
-  speed: 100
---- !u!114 &114684687113479224
+--- !u!114 &114256286605445566
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -124,15 +123,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1751638125408664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5878bb47b526e384fb83fd88f33230da, type: 3}
+  m_Script: {fileID: 11500000, guid: 66c3e292f89f14274bb45e2a50aec7e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletsPrefab: {fileID: 114297226711732130, guid: d08358b8c36b03a4ebe994236b2aebb1,
-    type: 2}
+  projectilePrefab: {fileID: 0}
   mask:
     serializedVersion: 2
-    m_Bits: 256
---- !u!114 &114996322252725986
+    m_Bits: 0
+--- !u!114 &114313802700966970
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -140,10 +138,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1751638125408664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02bddaf18d9db38469eecd9b24c11fcf, type: 3}
+  m_Script: {fileID: 11500000, guid: d2dfb5cd23c65453f8b73f9868f4a1d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 10
 --- !u!135 &135166077012233122
 SphereCollider:
   m_ObjectHideFlags: 1

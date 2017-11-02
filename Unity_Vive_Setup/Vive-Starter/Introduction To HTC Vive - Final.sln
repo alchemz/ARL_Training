@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction To HTC Vive - Final", "Introduction To HTC Vive - Final.csproj", "{892885A5-2A50-FC41-9FEC-4C8E2DF73AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction To HTC Vive - Final.Editor", "Introduction To HTC Vive - Final.Editor.csproj", "{56B2E67B-B17B-6630-BA75-BFFFDAD0F94F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{892885A5-2A50-FC41-9FEC-4C8E2DF73AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892885A5-2A50-FC41-9FEC-4C8E2DF73AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892885A5-2A50-FC41-9FEC-4C8E2DF73AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892885A5-2A50-FC41-9FEC-4C8E2DF73AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B2E67B-B17B-6630-BA75-BFFFDAD0F94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B2E67B-B17B-6630-BA75-BFFFDAD0F94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B2E67B-B17B-6630-BA75-BFFFDAD0F94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B2E67B-B17B-6630-BA75-BFFFDAD0F94F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

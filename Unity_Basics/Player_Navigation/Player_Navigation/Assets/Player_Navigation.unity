@@ -366,7 +366,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1006484333}
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 0, y: 5, z: -10}
+  m_LocalPosition: {x: 0, y: 3.16, z: -3.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 857752917}
@@ -380,10 +380,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1006484333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ee88b144c130af4885f4c3d22af250c, type: 3}
+  m_Script: {fileID: 11500000, guid: d029eb7dcbc85402db77979b9d9e88ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 8
   target: {fileID: 1519830272}
 --- !u!1001 &1018256124
 Prefab:
@@ -424,6 +424,17 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114256286605445566, guid: 780b5693a24567e4a9f238c5941a8922,
+        type: 2}
+      propertyPath: mask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 114256286605445566, guid: 780b5693a24567e4a9f238c5941a8922,
+        type: 2}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 114303441419216004, guid: d08358b8c36b03a4ebe994236b2aebb1,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 780b5693a24567e4a9f238c5941a8922, type: 2}
   m_IsPrefabParent: 0
@@ -475,7 +486,8 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114272936051043350, guid: b977582e7b05ebc48a47c31f97d407d6, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b977582e7b05ebc48a47c31f97d407d6, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1519830272 stripped
