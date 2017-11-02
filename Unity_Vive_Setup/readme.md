@@ -1,11 +1,11 @@
 # Steps
 
-## set up steamVR
+## 1. set up steamVR
 
-## handling input from different buttons
+## 2. handling input from different buttons
 
-## using the controllers with physics objects(collider)
+## 3. using the controllers with physics objects(collider)
 
-## making a laster pointer
+## 4. making a laster pointer
 
-## moving around, teleport
+## 5. moving around, teleport
